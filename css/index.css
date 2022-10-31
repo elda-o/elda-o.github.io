@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap');
+
+:root{
+--mainTextColor: rgb(86, 86, 86);
+--secondaryTextColor: rgb(146, 146, 146);
+--mainBorderColor: rgb(44, 44, 44);
+--mainBgColor: rgb(253, 253, 253);
+font-size: 1rem;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Spectral;
+}
+
+body {
+    background-color: var(--mainBgColor);
+}
+
+.navbar{
+    margin: 2rem 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navbar h2{
+    color: var(--mainTextColor);
+    font-weight: lighter;
+    margin-top: 0.5rem;
+}
+.container{
+    margin-top: 1rem;
+}
+.container, a{
+    padding: 0rem 3rem;
+    font-size: 1.2rem;
+    color: var(--mainTextColor);
+}
+.navbar, h2 {
+    font-size: 2rem;
+}
+/* .lines {
+    background-color: gray;
+    width: 100rem;
+    margin: 2rem 3rem;
+    height: 2px;
+   
+} */
+hr {
+    margin: 2rem 4rem;
+    border: 1px solid rgb(209, 209, 209);
+    background-color: rgb(209, 209, 209);
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+    margin: 3rem 7rem;
+    background-color: rgb(209, 209, 209);  
+    /* optional #ECAED1 */
+    height: 25rem;
+    padding-top: none;
+}
+#Bio {
+    margin: 3rem 10rem;
+    width: 30rem;
+}
+#Bio p {
+    margin-top: 0.1rem;
+}
+#Bio h3{
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+}
+#Bio h2{
+    margin-top: 0rem;
+}
+#Info {
+    margin: 2rem 5rem;
+}
+#Info li{
+    margin-bottom: 1.3rem;
+    list-style: none;
+}
+
+#Info h2{
+    margin-bottom: 2.5rem;
+    margin-top: 1rem;
+    font-size: 4rem;
+    font-family: The Nautigal;
+}
+
+#Info h3{
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+.BOT {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem 9rem;
+}
+#MidLine{
+    height: 52rem;
+    width: 2px;
+    background-color: rgb(209, 209, 209);
+}
+#Right {
+    margin-left: 3rem;
+    width: 35rem;
+}
+#Left {
+    width: 35rem;
+}
+.BOT h3 {
+    font-size: 1.5rem;
+    color: var(--mainTextColor);
+    font-family: Spectral;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin-top: 1rem;
+}
+li {
+    padding-top: 0.5rem;  
+}
